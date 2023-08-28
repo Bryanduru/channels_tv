@@ -120,28 +120,31 @@ div.trending{
 .social-links>li~li{
     margin-left: 5px;
 }
-.other-links{
+.footer-links{
     position: relative;
     margin: 0;
     padding: 15px 0 40px;
     width: 100%
 }
-.other-links ul{
+.footer-links ul{
     display: inline-block;
     list-style: none;
     margin: 0 13% 0 1%;
     padding: 0;
     line-height: 30px;
 }
-.other-links a{
+.footer-links a{
     color: rgba(245, 239, 239, 0.8);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.other-links li:first-child{
+.footer-links li:first-child{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: rgb(100, 100, 238)
+}
+.footer-links li~li a:active, .footer-links li~li a:hover{
+    color: rgb(100, 100, 238);
 }
